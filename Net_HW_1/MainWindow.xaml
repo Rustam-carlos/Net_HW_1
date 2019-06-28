@@ -1,0 +1,18 @@
+﻿<Window x:Class="Net_HW_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Net_HW_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="289.831" Width="252.754">
+    <Grid Margin="0,0,16,16">
+        <Label x:Name="Label1" Content="URL Сервера" HorizontalAlignment="Left" Margin="72,18,0,0" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="TextBoxURL" HorizontalAlignment="Left" Height="45" Margin="44,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163"/>
+        <TextBox x:Name="TextBoxIP" HorizontalAlignment="Left" Height="54" Margin="44,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163"/>
+        <Button x:Name="Button1" Content="Получить IP Сервера" HorizontalAlignment="Left" Margin="44,192,0,0" VerticalAlignment="Top" Width="163" Click="Button1_Click"/>
+        <Label x:Name="Label2" Content="IP Сервера" HorizontalAlignment="Left" Margin="72,107,0,0" VerticalAlignment="Top" Width="95"/>
+        <Button x:Name="Button2" Content="Получить URL Сервера" HorizontalAlignment="Left" Margin="44,217,0,0" VerticalAlignment="Top" Width="163" Click="Button2_Click"/>
+
+    </Grid>
+</Window>
